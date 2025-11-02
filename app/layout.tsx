@@ -5,8 +5,8 @@ import { Analytics } from '@vercel/analytics/next'
 import './globals.css'
 
 export const metadata: Metadata = {
-  title: 'دورة تركيب الرموش الاحترافي',
-  description: 'تعلم تقنيات تركيب الرموش الاحترافي مع دورة شاملة',
+  title: 'Eyelash Extension Contraindications',
+  description: 'Learn about contraindications for eyelash extensions',
   generator: 'v0.app',
 }
 
@@ -16,8 +16,8 @@ export default function RootLayout({
   children: React.ReactNode
 }>) {
   return (
-    <html lang="ar" dir="rtl">
-      <body className={`font-sans ${GeistSans.variable} ${GeistMono.variable}`}>
+    <html lang="en" suppressHydrationWarning>
+      <body>
         {children}
         <Analytics />
       </body>
